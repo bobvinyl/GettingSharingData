@@ -24,6 +24,7 @@ It unzips the files and processes them as follows:
 9. Write the tidy data created above out to a file.
 
 Secondary processing to create a second output file which contains averges of each field above grouped by subject and activity:
+
 1. Create grouped_df (tbl_df with grouped_by applied) to the concatenation of test and train data above.
 2. Calculate the mean of each field using the above grouping.
 3. Write this summary out to a file.
